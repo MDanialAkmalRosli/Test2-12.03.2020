@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class StaffIncomeReport_12032020 {
+public class StaffIncomeReport_12032020 {    //main class
    public static void main(String[] arg){
    Scanner sc = new Scanner(System.in);
    
@@ -37,7 +37,7 @@ public class StaffIncomeReport_12032020 {
    } 
 }
 
-class Income {
+class Income {    //income class
    private String incomeType;
    private double amount, tax, totalTax;
    
@@ -65,7 +65,7 @@ class Income {
    }
 }
 
-class Staff {
+class Staff {     //staff class
    private String name, id;
    private Income income;
    double netincome;
