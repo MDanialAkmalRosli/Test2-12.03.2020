@@ -35,7 +35,7 @@ public class StaffIncomeReport_12032020 {    //main class
    System.out.println(" ");
       
    } 
-}
+}     //end of main class
 
 class Income {    //income class
    private String incomeType;
@@ -63,7 +63,7 @@ class Income {    //income class
       totalTax = (tax / 100) * amount;
       return totalTax;
    }
-}
+}     //end of income class
 
 class Staff {     //staff class
    private String name, id;
@@ -102,4 +102,4 @@ class Staff {     //staff class
       System.out.printf("\nNet income: %.2f", calculateNetIncome() );
    }
 
-}
+}     //end of staff class
